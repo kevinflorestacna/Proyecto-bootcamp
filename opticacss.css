@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Staatliches',sans-serif;
+    color: white;
+    background-image: url(../principal.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/*Caja Superior*/
+.contenedor{
+    width: 100%;
+    background-color: #F7B11B;
+    margin: auto;
+}
+/* Navegador Superior*/
+.logo{
+    width: 300px;
+    height: 80px;
+}
+.nav_superior{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_superior ul{
+    list-style: none;
+    display: flex;
+}
+.menu li{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.menu li a:hover{
+    border-bottom: 2px solid rgb(93, 17, 156);
+    cursor: pointer;
+    color: rgb(93, 17, 156);
+}
+/*Contenido Principal*/
+.contenido_principal{
+    width: 100%;
+    padding: 15px;
+}
+/* Ventana de Noticias/Promociones etc*/
+.cartel{
+    width: 100%;
+    height: 600px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+}
+.boton{
+    border: 1px solid #fff;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background-color: rgb(93, 17, 156);
+}
+.boton:hover{
+    border: 1px solid rgb(93, 17, 156);
+    background-color: rgb(233, 10, 10);
+    cursor: pointer;
+}
+/* Inicio y Titulo de los card de imagenes*/
+.principal{
+    padding: 15px;
+    width: 100%;
+}
+.titulo{
+    width: 100%;
+    text-align: center;
+    font-size: 42px;
+    padding: 20px;
+}
+/* CSS GRID PARA LOS CARDS */
+.principal_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    margin: 10px 0;
+}
+.articulos{
+    width: 98%;
+}
+.articulos img{
+    width: 100%;
+    height: 480px;
+    border: 2px solid rgb(93, 17, 156) ;
+}
+.articulos a{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    border: 1px solid rgb(93, 17, 156);
+    text-decoration: none;
+    padding: 15px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif,negrita;
+}
+.articulos a:hover{
+    background-color: black;
+    color: #ffffff;
+    border: 1px solid greenyellow;
+    cursor: pointer;
+}
+
+/* Redes Socual */
+.contactos{
+    width: 100%;
+    text-align: center;
+}
+.contactos h2{
+    padding-bottom: 10px;
+}
+.social a{
+    padding: 15px;
+    display: inline-flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.social a i{
+    padding-right: 15px;
+}
+.social a:hover{
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+/* Footer Contactos */
+.footer{
+    width: 100%;
+    text-align: center;
+    background-color: black;
+}
