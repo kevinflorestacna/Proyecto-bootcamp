@@ -6,7 +6,7 @@
 body{
     font-family: 'Staatliches',sans-serif;
     color: white;
-    background-image: url(principal.png);
+    background-image: url(/principal.png);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
